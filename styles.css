@@ -45,3 +45,27 @@ h2{
 .bird:hover .box2 {
   display: block;
 }
+
+.mobileBox{
+    display: none;
+}
+
+
+@media screen and (max-width: 750px){
+    .box1{
+        display:none;
+    }
+    .bird:hover .box2 {
+        display: none;
+      }
+
+    .box2{
+        display:none;
+    }
+    .mobileBox{
+        display:block;
+    }
+    .h2{
+        font-size:300rem;
+    }
+}
