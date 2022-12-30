@@ -2,4 +2,4 @@
 
 archive of live photos I took of birds :)
 
-link [to website here] (https://skmartinelli.github.io/liveBirds/)
+link [to website here](https://skmartinelli.github.io/liveBirds/)
