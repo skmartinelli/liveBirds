@@ -1,0 +1,47 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif
+}
+h2{
+    position:absolute;
+    right:20%;
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+}
+
+.header{
+    display:flex;
+}
+
+
+.bird{
+    left:30px;
+    display:flex;
+    flex-direction: row;
+    width: auto;
+  display: inline-block;
+
+}
+
+.box1,
+.box2 {
+  text-align: center;
+}
+
+.box1 {
+  display: block;
+}
+
+.box2 {
+  display: none;
+}
+
+.bird:hover .box1 {
+  display: none;
+}
+
+.bird:hover .box2 {
+  display: block;
+}
